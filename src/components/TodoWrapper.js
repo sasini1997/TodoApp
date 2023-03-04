@@ -18,10 +18,11 @@ export const TodoWrapper=() => {
       <TodoForm addTodo={addTodo}/>
       {todos.map((todo,index)=> (<Todo task={todo} key={index}/>))}
      
-
       
     </div>
   )
+  //Toodo App
+
 }
 
 export default TodoWrapper
